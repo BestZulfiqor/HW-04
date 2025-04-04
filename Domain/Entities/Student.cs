@@ -13,5 +13,5 @@ public class Student
 
     // navigations
     public Address Address { get; set; }
-    public List<StudentGroup> StudentGroup { get; set; }
+    public List<StudentGroup> StudentGroups { get; set; }
 }

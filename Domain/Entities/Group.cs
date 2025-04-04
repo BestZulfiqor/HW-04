@@ -11,6 +11,7 @@ public class Group
     public DateTimeOffset FinishedAt { get; set; }
     public DateTimeOffset CreatedAt { get; set; }
     
+    public int CourseId { get; set; }
     public Course Course { get; set; }
     public List<StudentGroup> StudentGroups { get; set; }
 }
